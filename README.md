@@ -17,33 +17,30 @@ This ASP.NET Core MVC web application was developed for the City of Joburg Junio
 
 ### Getting Started
 1. Open Visual Studio
-2. Go to `File > Open > Project/Solution`
-3. Select `InternalResourceBookingSystem.sln`
+2. Go to File > Open > Project/Solution
+3. Select InternalResourceBookingSystem.sln
 
 ### Install Dependencies
 If needed, restore NuGet packages:
-- Open `Tools > NuGet Package Manager > Package Manager Console`
-- Run: `dotnet restore`
+- Open Tools > NuGet Package Manager > Package Manager Console
+- Run: dotnet restore
 
 ### Database Setup
-1. Check your database connection in `appsettings.json`:
-```json
+1. Check your database connection in appsettings.json:
+
 "ConnectionStrings": {
   "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=ResourceBookingDV;Trusted_Connection=True;"
 }
-```
 
 2. Apply migrations using Package Manager Console:
-```
-Update-Database
-```
+Run: Update-Database
 
 ### Running the App
 Hit F5 or click the green play button. The application will launch in your browser.
 
 ### Login Credentials
-- Username: `admin`
-- Password: `1234`
+- Username: admin
+- Password: 1234
 
 ## What's Included
 
